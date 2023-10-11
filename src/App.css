@@ -43,7 +43,7 @@
 /* Add this CSS to your App.css file or your preferred stylesheet */
 
 .print-button {
-  background-color: #007BFF; /* Change to your preferred background color */
+  background-color: #080909; /* Change to your preferred background color */
   color: #fff; /* Text color */
   padding: 10px 20px;
   border: none;
@@ -54,5 +54,79 @@
 }
 
 .print-button:hover {
-  background-color: #0056b3; /* Change to a slightly different shade for hover effect */
+  background-color: #363739; /* Change to a slightly different shade for hover effect */
 }
+
+/* App.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color:white;
+  padding: 10px;
+  margin-bottom: 1%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  font-weight: bold
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color:white;
+  padding: 10px;
+}
+
+.footer-left {
+  color: blue;
+  display: flex;
+  align-items: center;
+  font-weight: bold
+}
+/* In your CSS file (e.g., App.css) */
+.duotone-icon {
+  color: white; 
+  margin-right: 2px;
+}
+
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  font-weight: bold
+}
+
+/* Add these styles in your CSS file (e.g., App.css) */
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left img {
+  margin-right: 10px; /* Add space between the image and text */
+}
+
+.header-left span {
+  color: blue;
+  font-weight: bold; /* Make the text bolder */
+  font-size: 20px; /* Make the text bigger */
+}
+
+/* Add these styles in your CSS file (e.g., App.css) */
+.header {
+  border-bottom: 2px solid blue; /* Add a blue line after the header */
+}
+
+.footer {
+  border-top: 2px solid blue; /* Add a blue line before the footer */
+}
+
+
