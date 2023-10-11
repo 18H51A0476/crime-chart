@@ -18,7 +18,7 @@ const CrimeChart = ({ data, selectedOffenseKey, offenseKeys }) => {
 
   return (
     <div>
-      <h2>Crime Data Line Chart</h2>
+      <h2>Crime Data Line Chart of {selectedOffenseKey}</h2>
       <Plot
         data={chartData}
         layout={{

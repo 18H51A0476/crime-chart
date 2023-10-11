@@ -40,3 +40,19 @@
   font-size: 16px;
   color: #555;
 }
+/* Add this CSS to your App.css file or your preferred stylesheet */
+
+.print-button {
+  background-color: #007BFF; /* Change to your preferred background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.print-button:hover {
+  background-color: #0056b3; /* Change to a slightly different shade for hover effect */
+}
